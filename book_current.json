@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向开发：ObjC运行时Runtime",
+  "description": "介绍iOS逆向期间常会涉及到的ObjC的底层知识Runtime运行时。以及介绍Runtime中的常遇到的各个函数和内容，包括NSObject、objc开头的系列函数，尤其是objc_msgSend函数、object开头的系列函数。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_objc_runtime"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_objc_runtime/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_objc_runtime/pdf/ios_re_objc_runtime.pdf"
+    }
+  }
+}
