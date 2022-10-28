@@ -1,7 +1,7 @@
-# iOS逆向开发：ObjC运行时Runtime
+# iOS逆向开发：ObjC运行时
 
 * 最新版本：`v0.6`
-* 更新时间：`20221024`
+* 更新时间：`20221028`
 
 ## 简介
 
@@ -13,7 +13,7 @@
 
 ### HonKit源码
 
-* [crifan/ios_re_objc_runtime: iOS逆向开发：ObjC运行时Runtime](https://github.com/crifan/ios_re_objc_runtime)
+* [crifan/ios_re_objc_runtime: iOS逆向开发：ObjC运行时](https://github.com/crifan/ios_re_objc_runtime)
 
 #### 如何使用此HonKit源码去生成发布为电子书
 
@@ -21,18 +21,18 @@
 
 ### 在线浏览
 
-* [iOS逆向开发：ObjC运行时Runtime book.crifan.org](https://book.crifan.org/books/ios_re_objc_runtime/website)
-* [iOS逆向开发：ObjC运行时Runtime crifan.github.io](https://crifan.github.io/ios_re_objc_runtime/website)
+* [iOS逆向开发：ObjC运行时 book.crifan.org](https://book.crifan.org/books/ios_re_objc_runtime/website)
+* [iOS逆向开发：ObjC运行时 crifan.github.io](https://crifan.github.io/ios_re_objc_runtime/website)
 
 ### 离线下载阅读
 
-* [iOS逆向开发：ObjC运行时Runtime PDF](https://book.crifan.org/books/ios_re_objc_runtime/pdf/ios_re_objc_runtime.pdf)
-* [iOS逆向开发：ObjC运行时Runtime ePub](https://book.crifan.org/books/ios_re_objc_runtime/epub/ios_re_objc_runtime.epub)
-* [iOS逆向开发：ObjC运行时Runtime Mobi](https://book.crifan.org/books/ios_re_objc_runtime/mobi/ios_re_objc_runtime.mobi)
+* [iOS逆向开发：ObjC运行时 PDF](https://book.crifan.org/books/ios_re_objc_runtime/pdf/ios_re_objc_runtime.pdf)
+* [iOS逆向开发：ObjC运行时 ePub](https://book.crifan.org/books/ios_re_objc_runtime/epub/ios_re_objc_runtime.epub)
+* [iOS逆向开发：ObjC运行时 Mobi](https://book.crifan.org/books/ios_re_objc_runtime/mobi/ios_re_objc_runtime.mobi)
 
 ## 版权和用途说明
 
-此电子书教程的全部内容，如无特别说明，均为本人原创。其中部分内容参考自网络，均已备注了出处。如有版权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
+此电子书教程的全部内容，如无特别说明，均为本人原创。其中部分内容参考自网络，均已备注了出处。如发现有侵权，请通过邮箱联系我 `admin 艾特 crifan.com`，我会尽快删除。谢谢合作。
 
 各种技术类教程，仅作为学习和研究使用。请勿用于任何非法用途。如有非法用途，均与本人无关。
 
@@ -42,6 +42,6 @@
 
 ## 更多其他电子书
 
-本人`crifan`还写了其他`100+`本电子书教程，感兴趣可移步至：
+本人`crifan`还写了其他`150+`本电子书教程，感兴趣可移步至：
 
 [crifan/crifan_ebook_readme: Crifan的电子书的使用说明](https://github.com/crifan/crifan_ebook_readme)
