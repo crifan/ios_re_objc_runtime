@@ -1,5 +1,13 @@
 # 参考资料
 
+* 【已解决】iOS逆向：ObjC函数objc_opt_class
+* 【已解决】Xcode的lldb中用objc_getClass如何获取到类名带括号的类
+* 【整理】iOS逆向：ObjC类的常用方法
+* 【已解决】iOS的ObjC中如何获取Class类名
+* 【已解决】iOS中如何获取ObjC类的父类
+* 【已解决】iOS中获取ObjC的父类用哪个：class_getSuperclass还是superclass
+* 
+* [iphone - Getting name of the class from an instance - Stack Overflow](https://stackoverflow.com/questions/2217560/getting-name-of-the-class-from-an-instance/76422159#76422159)
 * [Objective-C Automatic Reference Counting (ARC) — Clang 15.0.0git documentation (llvm.org)](https://clang.llvm.org/docs/AutomaticReferenceCounting.html#arc-runtime-objc-retain)
 * [理解 ARC 实现原理 (xietao3.com)](http://xietao3.com/2019/05/ARC/)
 * [Objective-C 小记（9）__strong - 简书 (jianshu.com)](https://www.jianshu.com/p/a4af5c8ee6a3)
