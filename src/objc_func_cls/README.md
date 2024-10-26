@@ -1,11 +1,5 @@
 # ObjC函数和对象
 
-TODO：
-
-* 【整理】iOS逆向：ObjC底层函数objc_alloc_init
-
----
-
 此处整理iOS的ObjC的Runtime相关的函数和对象，和底层机制。
 
 ## dispatch相关

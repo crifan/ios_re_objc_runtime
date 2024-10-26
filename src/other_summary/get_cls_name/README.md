@@ -6,21 +6,21 @@ iOS的获取ObjC类名，有几种方法：
 
 * 获取Class名字=类名
   * 方式
-    * 适用于=输入是：Class
+    * 适用于=当输入类型是：**Class**
       * `NSStringFromClass`
         * 返回：`NSString*`
       * `class_getName`
         * 返回：`const char*`
-    * 适用于=输入是：Instance
+    * 适用于=当输入类型是：**Instance**
       * `[someInstance className]`
         * 返回：`NSString*`
-    * 适用于=输入是：id(Class/Instance/...)
+    * 适用于=当输入类型是：**id**(`Class`/`Instance`/...)
       * `object_getClassName`
         * 返回：`const char*`
 
 ## 详解
 
-* 适用于：Class
+* 适用于：**Class**
   * `NSStringFromClass`
     * 定义
       ```objc
@@ -36,7 +36,7 @@ iOS的获取ObjC类名，有几种方法：
       ```objc
       const char * class_getName(Class cls);
       ```
-* 适用于：Instance=Object
+* 适用于：**Instance**=**Object**
   * `className`
     * 定义：
       ```objc
@@ -53,7 +53,7 @@ iOS的获取ObjC类名，有几种方法：
           error: Execution was interrupted, reason: Attempted to dereference an invalid ObjC Object or send it an unrecognized selector.
           The process has been returned to the state before expression evaluation.
           ```
-* 使用于：id（Class/Instance/...)
+* 适用于：**id**（`Class`/`Instance`/...）
   * `object_getClassName`
     * 定义
       ```objc
@@ -85,4 +85,24 @@ iOS的获取ObjC类名，有几种方法：
         
         (lldb) po (char*)0x00000001874cf168
         "_NSXPCConnectionExportInfo"
+        ```
+
+## 使用举例
+
+### AADeviceInfo
+
+* objc_alloc_init的条件判断的断点的写法
+  * 判断是否是类AADeviceInfo
+    * 输入参数类型：Class
+      * NSStringFromClass
+        ```bash
+        (bool)[NSStringFromClass($x0) isEqualToString: @"AADeviceInfo"]
+        ```
+      * class_getName
+        ```bash
+        (int)strcmp((char *)class_getName($x0),"AADeviceInfo")==0
+        ```
+      * object_getClassName
+        ```bash
+        (int)strcmp((char *)object_getClassName($x0),"AADeviceInfo")==0
         ```

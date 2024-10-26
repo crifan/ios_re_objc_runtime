@@ -1,12 +1,6 @@
-# object系列函数
+# 应用举例
 
-此处介绍iOS的ObjC的Runtime中，常见的，以`object`开头的一些系列函数。
-
-## object_getClassName
-
-iOS逆向的动态调试，有时会用到：`object_getClassName`
-
-比如：
+## MLOnesieRequestContext
 
 * 用lldb调试时，想要查看第一个参数是什么类：
 
@@ -20,7 +14,7 @@ iOS逆向的动态调试，有时会用到：`object_getClassName`
 "MLOnesieRequestContext"
 ```
 
-和：
+## YTGLUILabel
 
 ```c
 (lldb) reg r x9 x10
@@ -39,7 +33,7 @@ iOS逆向的动态调试，有时会用到：`object_getClassName`
 "YTGLUILabel"
 ```
 
-* `MonkeyDev`的`LLDBTools.m`中也用到过：
+## `MonkeyDev`的`LLDBTools.m`
 
 ```c
 NSString* choose(const char* classname){
@@ -53,6 +47,18 @@ NSString* choose(const char* classname){
 }
 ```
 
-TODO：
+## __NSDictionaryI
 
-* 【已解决】iOS逆向心得：object_getClassName获取类名__NSDictionaryM是什么意思
+```bash
+_objc_msgSend(<AWEOnlineABTestManager: 0x283244ce0>, "abTestData”)
+```
+
+查看返回值：
+
+```bash
+(lldb) reg r x0
+      x0 = 0x0000000128900000
+
+(lldb) po (char*)object_getClassName(0x0000000128900000)
+"__NSDictionaryI"
+```
