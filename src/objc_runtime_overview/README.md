@@ -1,6 +1,6 @@
 # ObjC运行时概览
 
-[iOS逆向](http://book.crifan.org/books/ios_reverse_dev/website)时，常会涉及到底层的一些机制，其中就包括，`ObjC`的`运行时`=`Runtime`。
+[iOS逆向](http://book.crifan.org/books/ios_reverse_dev/website)时，常会涉及到一些[iOS底层机制](https://book.crifan.org/books/ios_re_ios_internal/website/)，其中就包括，`ObjC`的`运行时`=`Runtime`。
 
 iOS逆向期间涉及到的很多内容，都和Runtime有关：
 
