@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v0.9.6",
-  "lastUpdate": "20241026",
+  "latestVersion": "v0.9.7",
+  "lastUpdate": "20241123",
   "gitRepoName": "ios_re_objc_runtime",
   "bookName": "iOS逆向开发：ObjC运行时",
   "bookDescription": "介绍iOS逆向期间常会涉及到的ObjC的底层知识Runtime运行时。以及介绍Runtime中的常遇到的各个函数和内容，包括NSObject、objc开头的系列函数，尤其是objc_msgSend函数、object开头的系列函数。"

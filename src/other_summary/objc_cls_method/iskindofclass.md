@@ -5,6 +5,9 @@
 ### AuthDaemonProtocolProxy
 
 ```objc
+id AuthDaemonProtocolProxy = objc_getClass("__NSXPCInterfaceProxy_AKAppleIDAuthenticationDaemonProtocol");
+//id AuthDaemonProtocolProxy = NSClassFromString(@"__NSXPCInterfaceProxy_AKAppleIDAuthenticationDaemonProtocol");
+
 %hook NSXPCConnection
 
 - (id)remoteObjectProxyWithErrorHandler:(void (^)(NSError *error))handler{
